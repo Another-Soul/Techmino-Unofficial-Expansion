@@ -268,6 +268,7 @@ return {
         "",
         "Programmed, Developed, And Designed By",
         "MrZ",
+        "Unofficial Extension by Another_Soul",
         "",
         "Music Made Using",
         "Beepbox",
@@ -378,64 +379,6 @@ return {
         sha2 [Egor Skriptunoff]
     ]],
     support="Support the author",
-    dict={
-        sizeChanged="Changed font size: $1",
-        sizeReset="Reset font size: 25",
-        helpText=
-[[
-ZICTIONARY NAVIGATION INSTRUCTION
-
-NOTE: Some functions may not have specific gestures for gamepad input.
-In such cases, you can use alternative input methods or follow the provided instructions.
-
-Scrolling text:
-        Keyboard: Use [$1] to scroll up, [$2] to scroll down.
-        Gamepad: Use $5 to scroll up, $6 to scroll down.
-        Mouse/Touch screen: Use the familiar scrolling gestures.
-
-Exiting Zictionary:
-        Keyboard: Press [Esc] key.
-        Gamepad: Press [BACK] button.
-        Mouse/Touch screen: Press the Back button in the top right corner of the screen.
-
-Opening/closing Help:
-        Keyboard: Press [F1] key.
-        Gamepad: Press $10 key.
-        Mouse/Touch screen: Tap [$13] key.
-
-Opening previous/next item in the list:
-        Keyboard: Press [$3] to open the previous item, [$4] to open the next one.
-        Gamepad: Press $7 to open the previous item, $8 to open the next one.
-        Mouse/Touch screen: Click/touch the item below the currently selected one in the list.
-
-Jumping backward/forward through 12 items:
-        Keyboard: Hold [Ctrl]/[Shift]/[Alt] key first, then press [$3] to jump backward, [$4] to jump forward.
-        Gamepad: Hold $11 key first, then press $7 to jump backward, and $8 to jump forward.
-        Mouse/Touch screen: Click/Touch [$16] to jump backward, [$17] to jump forward
-
-Changing font size (DEFAULT: 25):
-        Keyboard: Hold Ctrl key first, then press [-] to make the text smaller, [+] to make it bigger, [0] to reset the font size to default.
-        Gamepad: Hold $11 key first, then press $6 to make the text smaller, and $5 to make it bigger.
-        Mouse/Touch screen:
-                Press [aA] to show [a] and [A] buttons.
-                Click/touch [a] to make the text smaller.
-                Click/touch [A] to make the text bigger.
-                To reset the font size, wait for 3 seconds for [aA] [100%] to reappear, then click/touch [100%] to reset.
-    Note: There's no gesture to reset the font size with the Gamepad, but you can set it back to 25.
-
-Copying the content:
-        Keyboard: Press [Ctrl] + [C].
-        Mouse/Touch screen: Press [$14] key.
-
-Opening item's URL (if available):
-        Keyboard: Press [$18] (Context menu/Application key).
-        Mouse/Touch screen: Press [$15] key.
-]]
-        -- 1-4: Up, Down, Left, Right
-        -- 5-8: Up, Down, Left, Right but D-Pad
-        -- 9-12: X, Y, A, B
-        -- 13-18: Help, Copy, Open, Forward, Backward, MENU
-    },
     WidgetText={
         main={
             offline="Single Player",
@@ -914,6 +857,7 @@ Opening item's URL (if available):
         ['big_n']=          {"Big",               "NORMAL",         "Play in a smaller field!"},
         ['big_h']=          {"Big",               "HARD",           "Play in a smaller field!"},
         ['master_n']=       {"Master",            "NORMAL",         "For 20G beginners"},
+        ['master_death']=   {"Master",            "DEATH",          "Fast speed mode! Can you break the lv500 barrier?"},
         ['master_h']=       {"Master",            "HARD",           "For 20G pros"},
         ['master_m']=       {"Master",            "M21",            "For 20G Masters"},
         ['master_final']=   {"Master",            "FINAL",          "20G and beyond"},
@@ -983,6 +927,7 @@ Opening item's URL (if available):
         ['custom_puzzle']=  {"Custom",            "PUZZLE"},
     },
     getTip={refuseCopy=true,
+        "Techmino is made by MrZ, and Techmino: UE is made by Another_Soul.",
         ":pog:",
         "“Techmino.app” cannot be opened because the developer cannot be verified.",
         "“Techmino.app” will damage your computer. You should move it to the Bin.",
