@@ -830,7 +830,7 @@ return {
         ['dig_100l']=       {"Dig",               "100L",           "Dig 100 garbage lines as fast as you can!"},
         ['dig_400l']=       {"Dig",               "400L",           "Dig 400 garbage lines as fast as you can!"},
         ['dig_eff_10l']=    {"Dig",               "EFFICIENCY 10L", "Dig 10 garbage lines with the least pieces!"},
-        ['dig_eff_10l_123']={"Dig",               "EFFICIENCY 10L ", "Dig 10 garbage lines with only monominoes, dominoes and triminoes!"},
+        ['dig_eff_10l_123']={"Dig",               "MDT EFF 10L",    "Dig 10 garbage lines with the least monominoes, dominoes and triminoes!"},
         ['dig_eff_40l']=    {"Dig",               "EFFICIENCY 40L", "Dig 40 garbage lines with the least pieces!"},
         ['dig_eff_100l']=   {"Dig",               "EFFICIENCY 100L","Dig 100 garbage lines with the least pieces!"},
         ['dig_eff_400l']=   {"Dig",               "EFFICIENCY 400L","Dig 400 garbage lines with the least pieces!"},
