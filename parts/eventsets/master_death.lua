@@ -29,36 +29,21 @@ return {
             E.wait=rush_wait[s]
             E.fall=rush_fall[s]
 
-            if s==1 then
-                BG.set('cubes')
-                E.das=12
-            elseif s==2 then
-                BG.set('rainbow')
-                E.das=12
+            if s==2 then
+                E.das=11
             elseif s==3 then
-                BG.set('rainbow')
                 E.das=10
             elseif s==4 then
-                BG.set('glow')
                 E.das=8
             elseif s==5 then
-                if P.stat.frame>236*60 then --3:56
+                if P.stat.frame>205*60 then --3:25 at level 500
                     D.pt=500
                     P:win('finish')
                     return
                 else
-                    E.das=8
                     BG.set('glow')
                     BGM.play('secret8th remix')
                 end
-            elseif s==6 then
-                BG.set('flink')
-            elseif s==7 then
-                BG.set('flink')
-            elseif s==8 then
-                BG.set('flink')
-            elseif s==9 then
-                BG.set('flink')
             elseif s==10 then
                 D.pt=1000
                 P:win('finish')

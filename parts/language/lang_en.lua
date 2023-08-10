@@ -266,7 +266,7 @@ return {
         "ORIGINALLY BY MrZ",
         "E-mail: 1046101471@qq.com",
         "",
-        "Programmed, Developed, And Designed By",
+        "Original Game Programmed, Developed, And Designed By",
         "MrZ",
         "Unofficial Extension by Another_Soul",
         "",

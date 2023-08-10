@@ -29,14 +29,10 @@ return {
             E.wait=rush_wait[s]
             E.fall=rush_fall[s]
 
-            if s==1 then
-                BG.set('glow')
-                E.das=12
-            elseif s==2 then
-                BG.set('glow')
-                E.das=12
+            if s==2 then
+                E.das=11
             elseif s==3 then
-                if P.stat.frame>168*60 then --2:48
+                if P.stat.frame>148*60 then --2:28 at level 300
                     D.pt=300
                     P:win('finish')
                     return
@@ -46,34 +42,25 @@ return {
                     E.das=10
                 end
             elseif s==4 then
-                BG.set('tunnel')
                 E.das=8
             elseif s==5 then
-                if P.stat.frame>244*60 then --4:04
+                if P.stat.frame>218*60 then --3:38 at level 500
                     D.pt=500
                     P:win('finish')
                     return
                 else
-                    E.das=8
                     BG.set('matrix')
                     BGM.play("secret7th remix")
                 end
-            elseif s==6 then
-                BG.set('matrix')
-            elseif s==7 then
-                BG.set('matrix')
             elseif s==8 then
-                if P.stat.frame>372*60 then --6:12
+                if P.stat.frame>323*60 then --5:23 at level 800
                     D.pt=800
                     P:win('finish')
                     return
                 else
                     BG.set('flink')
-                    E.das=10
                     BGM.play("distortion")
                 end
-            elseif s==9 then
-                BG.set('flink')
             elseif s==10 then
                 D.pt=1000
                 P:win('finish')

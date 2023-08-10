@@ -328,8 +328,8 @@ SKIN.load{
     {name="textbone_mrz",path='media/image/skin/textbone_mrz.png'},
     {name="coloredbone_mrz",path='media/image/skin/coloredbone_mrz.png'},
     {name="wtf",path='media/image/skin/wtf_mrz.png'},
-    {name="classic_arika",path='media/image/skin/classic_arika.png'},
-    {name="world_arika",path='media/image/skin/world_arika.png'},
+    {name="ARS_Ti",path='media/image/skin/ARS.png'},
+    {name="SRS_Ti",path='media/image/skin/SRS.png'},
 }
 
 -- Initialize sound libs
