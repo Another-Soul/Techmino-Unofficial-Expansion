@@ -1,7 +1,7 @@
 return {
     env={
         sequence="bagES",
-        visible = "none",
+        visible = "phantom",
         freshLimit=15,
         eventSet='master_phantom',
         bg='glow',bgm='down',
@@ -19,7 +19,7 @@ return {
         S>=800 and 4 or
         S>=500 and 3 or
         S>=300 and 2 or
-        S>=150 and 1 or
+        S>=200 and 1 or
         S>=100 and 0
     end,
 }

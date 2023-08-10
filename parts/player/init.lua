@@ -303,20 +303,11 @@ local function _applyGameEnv(P)-- Finish gameEnv processing
 
     P:setInvisible(
         ENV.visible=='show' and -1 or
-        ENV.visible=='s1' and 300 or --0-99
-        ENV.visible=='s2' and 184 or --100-199
-        ENV.visible=='s3' and 139 or --200-299
-        ENV.visible=='s4' and 113 or --300-399
-        ENV.visible=='s5' and 97 or --400-499
-        ENV.visible=='s6' and 85 or --500-599
-        ENV.visible=='s7' and 77 or --600-699
-        ENV.visible=='s8' and 70 or --700-799
-        ENV.visible=='s9' and 64 or --800-899
-        ENV.visible=='s10' and 60 or --900-999
         ENV.visible=='easy' and 300 or
         ENV.visible=='slow' and 100 or
         ENV.visible=='medium' and 60 or
         ENV.visible=='fast' and 20 or
+        ENV.visible=='phantom' and 4 or
         ENV.visible=='none' and 0
     )
     P:set20G(P._20G)
